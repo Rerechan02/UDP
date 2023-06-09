@@ -47,13 +47,6 @@ else
   print_center -ama " ⇢ Installation begins...! <"
   sleep 3
 
-    # [change timezone to UTC +0]
-  echo ""
-  echo " ⇢ Change timezone to UTC +0"
-  echo " ⇢ for Africa/Accra [GH] GMT +00:00"
-  ln -fs /usr/share/zoneinfo/Africa/Accra /etc/localtime
-  sleep 3
-
   # [+clean up+]
   rm -rf $udp_file &>/dev/null
   rm -rf /etc/UDPCustom/udp-custom &>/dev/null
@@ -119,5 +112,5 @@ else
   title "${a102:-Installation Successful}"
   print_center -ama "${a103:-  To show menu type: \nudp\n}"
   msg -bar
-  time_reboot 5
 fi
+clear
