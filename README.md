@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/Rerechan02/UDP/main/ssh/udp.sh && chmod +
 
 ## Note: 
  * Use optional port exclude when port udp between 1-65535 already use by other udp tunnel, like badvpn, ovpn udp and other.
- * Edit path config /root/udp/config.json, after changing it then reboot
+ * Edit path config /etc/udp/config.json, after changing it then reboot
  * Optional port exclude separated by coma, ex. 53,5300
 
 ## Telegram 
