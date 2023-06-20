@@ -14,7 +14,7 @@ UDP (User Datagram Protocol) is a network communication protocol that operates o
 sudo -s
 ``` 
 ```
-wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/Rerechan02/UDP/main/ssh/udp.sh && chmod +x udp.sh && ./udp.sh
 ```
 
 
