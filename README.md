@@ -1,20 +1,12 @@
-## UDP Custom & UDP Request - Installer and Manager
+## UDP Custom Service
 #### * Version ⇢ 2.1b
 ---
 UDP (User Datagram Protocol) is a network communication protocol that operates on top of IP (Internet Protocol). It is a simpler protocol compared to TCP (Transmission Control Protocol), as it aims for speed rather than reliability.
-
-
----
-<center><img src="https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/bin/banner.jpg" alt="banner" width="400"/></center>
-
----
-## Changelog: 
-see [commits](https://github.com/prjkt-nv404/UDP-Custom-Installer-Manager/commits/main)
-
 ---
 
 # Supported OS
 - ubuntu 20.04 [x86_64] ✅ _(recommended)_
+- debian 10 [buster] ✅
 - [arm] ❌
 
 ## Install
@@ -34,15 +26,4 @@ wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager
  * Optional port exclude separated by coma, ex. 53,5300
 
 ## Telegram 
- > [voltssh](https://t.me/vp_voltssh)
-
- > [Volt SSH Replies](https://t.me/VoltsshBot)
-
-## Credit
- > [ePro_Dev_Team](https://t.me/ePro_Dev_Team/141)
-
- > [@rudi9999]()
-
-#
-  > _made from pieces with ❤️_
-#
+ > [Rerechan02](https://t.me/Rerechan02)
