@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/root
+WorkingDirectory=/etc
 ExecStart=/usr/bin/udp-request -ip=$request_public_ip -net=$interface$Port -mode=system
 Restart=always
 RestartSec=3s
